@@ -43,3 +43,9 @@ dconf load / < ubuntu.dconf
 - [curl](https://curl.se/): Command line tool for transferring data with URL syntax - `sudo apt install curl`
 - tmux: Terminal multiplexer - `sudo apt install tmux`
 - libfuse2: Filesystem in Userspace (library), required by Obsidian - `sudo apt install libfuse2`
+
+## Development tools
+- [Python](https://www.python.org/): The programming language - `sudo apt install python3`
+- [Docker](https://www.docker.com/): The container platform - `sudo apt install docker.io`
+- [Docker Compose](https://docs.docker.com/compose/): The container orchestration tool - `sudo apt install docker-compose`
+- [Rust](https://www.rust-lang.org/): The programming language - `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
