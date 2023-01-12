@@ -30,7 +30,7 @@ dconf load / < ubuntu.dconf
 
 ## Software
 - [Chrome](https://www.google.com/chrome/): The web browser
-- [Insync](https://www.insynchq.com/): Google Drive client - `sudo apt install insync`
+- [Insync](https://www.insynchq.com/): Google Drive client
 - [Obsidian](https://obsidian.md/): The second brain - Markdown-based note-taking and knowledge base - `sudo snap install obsidian`
 - [Bitwarden](https://bitwarden.com/): Password manager - `sudo snap install bitwarden`
 - [Bitwarden CLI](https://bitwarden.com/help/article/cli/): Command line interface for Bitwarden - `sudo snap install bw`
@@ -58,8 +58,11 @@ dconf load / < ubuntu.dconf
 - Font: Hack Nerd Font Regular 10 (installed with `nerdfonts`)
 - No titlebar nor titlebar icon
 - Background transparency: 0.83
+<<<<<<< HEAD
 
 # Gnome extensions
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/) - Prevents the screen from going to sleep
 - [Sound Input & Output Device choose](https://extensions.gnome.org/extension/906/sound-output-device-chooser/) - Allows you to choose the sound output device
 - [Vitals](https://extensions.gnome.org/extension/1465/vitals/) - Shows CPU, memory, and disk usage in the top bar
+=======
+>>>>>>> f9f5be87a50c4c46cb4bbf304134eb97c2d93efb
