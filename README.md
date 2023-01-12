@@ -37,6 +37,7 @@ dconf load / < ubuntu.dconf
 - [GitHub CLI](https://cli.github.com/): GitHub on the command line - `sudo snap install gh`
 - [Terminator](https://terminator-gtk3.readthedocs.io/en/latest/): Terminal emulator - `sudo apt install terminator`
 - [flameshot](https://flameshot.js.org/): Powerful yet simple to use screenshot software - `sudo apt install flameshot`
+- [caffeine](https://launchpad.net/caffeine): Prevents the screen from going to sleep - `sudo apt install caffeine`
 
 ## Command line
 - [vim](https://www.vim.org/): Vi IMproved - enhanced vi editor - `sudo apt install vim`
@@ -57,3 +58,8 @@ dconf load / < ubuntu.dconf
 - Font: Hack Nerd Font Regular 10 (installed with `nerdfonts`)
 - No titlebar nor titlebar icon
 - Background transparency: 0.83
+
+# Gnome extensions
+- [Caffeine](https://extensions.gnome.org/extension/517/caffeine/) - Prevents the screen from going to sleep
+- [Sound Input & Output Device choose](https://extensions.gnome.org/extension/906/sound-output-device-chooser/) - Allows you to choose the sound output device
+- [Vitals](https://extensions.gnome.org/extension/1465/vitals/) - Shows CPU, memory, and disk usage in the top bar
