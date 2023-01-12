@@ -30,7 +30,7 @@ dconf load / < ubuntu.dconf
 
 ## Software
 - [Chrome](https://www.google.com/chrome/): The web browser
-- [Insync](https://www.insynchq.com/): Google Drive client - `sudo apt install insync`
+- [Insync](https://www.insynchq.com/): Google Drive client
 - [Obsidian](https://obsidian.md/): The second brain - Markdown-based note-taking and knowledge base - `sudo snap install obsidian`
 - [Bitwarden](https://bitwarden.com/): Password manager - `sudo snap install bitwarden`
 - [Bitwarden CLI](https://bitwarden.com/help/article/cli/): Command line interface for Bitwarden - `sudo snap install bw`
