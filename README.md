@@ -23,7 +23,7 @@ dconf load / < ubuntu.dconf
 # Shell
 * [fish](https://fishshell.com/) - The user-friendly command line shell
 * [fisher](https://github.com/jorgebucaran/fisher) - A plugin manager for fish
-* [starship](https://starship.rs/) - The minimal, blazing-fast, and infinitely customizable prompt for any shell! - `curl -fsSL https://starship.rs/install.sh | bash`
+* [starship](https://starship.rs/) - The minimal, blazing-fast, and infinitely customizable prompt for any shell! - `curl -sS https://starship.rs/install.sh | sh`
 * [nerdfonts](https://github.com/ryanoasis/nerd-fonts) - Iconic font aggregator, collection, and patcher. I use **Hack** - `git clone --depth 1 https://github.com/ryanoasis/nerd-fonts && ./install.sh Hack`
 * [exa](https://the.exa.website/) - A modern replacement for ls - `sudo apt install exa`
 * [z](https://github.com/jethrokuan/z) - A new cd command that learns - `fisher install jethrokuan/z`
