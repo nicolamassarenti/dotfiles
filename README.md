@@ -29,7 +29,7 @@ dconf load / < ubuntu.dconf
 * [z](https://github.com/jethrokuan/z) - A new cd command that learns - `fisher install jethrokuan/z`
 
 ## Software
-- [Chrome](https://www.google.com/chrome/): The web browser - `sudo apt install google-chrome-stable`
+- [Chrome](https://www.google.com/chrome/): The web browser
 - [Insync](https://www.insynchq.com/): Google Drive client - `sudo apt install insync`
 - [Obsidian](https://obsidian.md/): The second brain - Markdown-based note-taking and knowledge base - `sudo snap install obsidian`
 - [Bitwarden](https://bitwarden.com/): Password manager - `sudo snap install bitwarden`
