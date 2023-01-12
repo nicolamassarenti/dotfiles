@@ -33,6 +33,8 @@ dconf load / < ubuntu.dconf
 - [Insync](https://www.insynchq.com/): Google Drive client - `sudo apt install insync`
 - [Obsidian](https://obsidian.md/): The second brain - Markdown-based note-taking and knowledge base - `sudo snap install obsidian`
 - [Bitwarden](https://bitwarden.com/): Password manager - `sudo snap install bitwarden`
+- [Bitwarden CLI](https://bitwarden.com/help/article/cli/): Command line interface for Bitwarden - `sudo snap install bw`
+- [GitHub CLI](https://cli.github.com/): GitHub on the command line - `sudo snap install gh`
 - [Terminator](https://terminator-gtk3.readthedocs.io/en/latest/): Terminal emulator - `sudo apt install terminator`
 - [flameshot](https://flameshot.js.org/): Powerful yet simple to use screenshot software - `sudo apt install flameshot`
 
@@ -50,3 +52,8 @@ dconf load / < ubuntu.dconf
 - [Docker](https://www.docker.com/): The container platform - `sudo apt install docker.io`
 - [Docker Compose](https://docs.docker.com/compose/): The container orchestration tool - `sudo apt install docker-compose`
 - [Rust](https://www.rust-lang.org/): The programming language - `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+
+## Terminator profile
+- Font: Hack Nerd Font Regular 10 (installed with `nerdfonts`)
+- No titlebar nor titlebar icon
+- Background transparency: 0.83
