@@ -19,8 +19,8 @@ cp starship.toml ~/.config/starship.toml
 dconf load / < ubuntu.dconf
 ```
 
-## My tools
-# Shell
+
+## Shell
 * [fish](https://fishshell.com/) - The user-friendly command line shell
 * [fisher](https://github.com/jorgebucaran/fisher) - A plugin manager for fish
 * [starship](https://starship.rs/) - The minimal, blazing-fast, and infinitely customizable prompt for any shell! - `curl -sS https://starship.rs/install.sh | sh`
@@ -49,20 +49,18 @@ dconf load / < ubuntu.dconf
 - [hugo](https://gohugo.io/): a framework for building static websites - `sudo snap install hugo`
 
 ## Development tools
-- [Python](https://www.python.org/): The programming language - `sudo apt install python3`
-- [Docker](https://www.docker.com/): The container platform - `sudo apt install docker.io`
-- [Docker Compose](https://docs.docker.com/compose/): The container orchestration tool - `sudo apt install docker-compose`
+- [Python](https://www.python.org/): The programming language
+- [Docker](https://www.docker.com/): The container platform
+- [Docker Compose](https://docs.docker.com/compose/): The container orchestration tool
 - [Rust](https://www.rust-lang.org/): The programming language - `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+- [Hugo](https://gohugo.io/): The static site generator - `sudo snap install hugo`
 
 ## Terminator profile
 - Font: Hack Nerd Font Regular 10 (installed with `nerdfonts`)
 - No titlebar nor titlebar icon
 - Background transparency: 0.83
-<<<<<<< HEAD
 
-# Gnome extensions
+## Gnome extensions
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/) - Prevents the screen from going to sleep
 - [Sound Input & Output Device choose](https://extensions.gnome.org/extension/906/sound-output-device-chooser/) - Allows you to choose the sound output device
 - [Vitals](https://extensions.gnome.org/extension/1465/vitals/) - Shows CPU, memory, and disk usage in the top bar
-=======
->>>>>>> f9f5be87a50c4c46cb4bbf304134eb97c2d93efb
