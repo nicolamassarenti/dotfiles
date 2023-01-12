@@ -46,7 +46,6 @@ dconf load / < ubuntu.dconf
 - [curl](https://curl.se/): Command line tool for transferring data with URL syntax - `sudo apt install curl`
 - tmux: Terminal multiplexer - `sudo apt install tmux`
 - libfuse2: Filesystem in Userspace (library), required by Obsidian - `sudo apt install libfuse2`
-- [hugo](https://gohugo.io/): a framework for building static websites - `sudo snap install hugo`
 
 ## Development tools
 - [Python](https://www.python.org/): The programming language
