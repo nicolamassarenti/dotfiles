@@ -8,19 +8,10 @@
 set -euo pipefail
 
 # Copying fish config
-cp -r ~/.config/fish/* ./fish/
+cp -r fish/* ~/.config/fish
 
-# Copying git config
-cp ~/.gitconfig ./git/
+# Copy starship config
+cp starship.toml ~/.config/starship.toml
 
-# Copying tmux config
-#cp ~/.tmux.conf ./tmux/
-
-# Copying vim config
-#cp ~/.vimrc ./vim/
-
-# Copying starship config
-cp ~/.config/starship.toml ./starship/
-
-# Copying dconf config
-dconf dump /org/gnome/terminal/legacy/profiles:/ > ./gnome-terminal/dconf
+# Load ubuntu dconf settings
+dconf load / < gnome-terminal/dconf
