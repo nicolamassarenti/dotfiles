@@ -17,6 +17,9 @@ cp starship.toml ~/.config/starship.toml
 
 # Load ubuntu dconf settings
 dconf load / < ubuntu.dconf
+
+# Setup systemctl custom services
+./service-systemctl.sh
 ```
 
 
@@ -63,3 +66,13 @@ dconf load / < ubuntu.dconf
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/) - Prevents the screen from going to sleep
 - [Sound Input & Output Device choose](https://extensions.gnome.org/extension/906/sound-output-device-chooser/) - Allows you to choose the sound output device
 - [Vitals](https://extensions.gnome.org/extension/1465/vitals/) - Shows CPU, memory, and disk usage in the top bar
+
+# Systemctl services
+You can inspect the setup of the `systemctl obsidian` service in file `service-systemctl.sh`. The service is used to start Obsidian as a daemon and to automatically mount the Obsidian vault.
+
+**Why as a systemctl service?**
+The main reason is that I wanted to run [Obsidian](https://obsidian.md/) as a daemon, without having to care about the terminal.
+I tried creating detached `fish` functions but the process was tied to the terminal, so I had to keep the terminal open. Other options
+included running a container with a mounted volume, but I wanted to avoid the overhead of Docker. The solution of configuring the process
+as a `systemctl` service was the best option for me. This way, I can start the service with `systemctl start obsidian` and stop it with
+`systemctl stop obsidian`, furthermore the way it's configured, the services is automatically started at boot and is restarted if it crashes while being logged in.

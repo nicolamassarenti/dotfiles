@@ -15,3 +15,4 @@ cp starship.toml ~/.config/starship.toml
 
 # Load ubuntu dconf settings
 dconf load / < gnome-terminal/dconf
+
