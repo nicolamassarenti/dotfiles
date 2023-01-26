@@ -50,10 +50,17 @@ dconf load / < ubuntu.dconf
 - tmux: Terminal multiplexer - `sudo apt install tmux`
 - libfuse2: Filesystem in Userspace (library), required by Obsidian - `sudo apt install libfuse2`
 
-## Development tools
-- [Python](https://www.python.org/): The programming language
+## Operations
+- [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/): The Kubernetes command-line tool
+- [helm](https://helm.sh/): The package manager for Kubernetes
 - [Docker](https://www.docker.com/): The container platform
 - [Docker Compose](https://docs.docker.com/compose/): The container orchestration tool
+- [krew](https://krew.sigs.k8s.io/): The plugin manager for kubectl
+- [fish-kubectl-prompt](https://github.com/Ladicle/fish-kubectl-prompt): A kubectl prompt for fish shell
+- [kubeseal](https://github.com/bitnami-labs/sealed-secrets/blob/main/README.md): A Kubernetes controller and tool for one-way encrypted Secrets
+
+## Development tools
+- [Python](https://www.python.org/): The programming language
 - [Rust](https://www.rust-lang.org/): The programming language - `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 - [Hugo](https://gohugo.io/): The static site generator - `sudo snap install hugo`
 
