@@ -58,11 +58,13 @@ dconf load / < ubuntu.dconf
 - [krew](https://krew.sigs.k8s.io/): The plugin manager for kubectl
 - [fish-kubectl-prompt](https://github.com/Ladicle/fish-kubectl-prompt): A kubectl prompt for fish shell
 - [kubeseal](https://github.com/bitnami-labs/sealed-secrets/blob/main/README.md): A Kubernetes controller and tool for one-way encrypted Secrets
+- [travis-ci](https://github.com/travis-ci/travis.rb): The command line client for Travis CI
 
 ## Development tools
 - [Python](https://www.python.org/): The programming language
 - [Rust](https://www.rust-lang.org/): The programming language - `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 - [Hugo](https://gohugo.io/): The static site generator - `sudo snap install hugo`
+- [ruby](https://www.ruby-lang.org/en/): The programming language - `sudo apt install ruby ruby-dev`
 
 ## Terminator profile
 - Font: Hack Nerd Font Regular 10 (installed with `nerdfonts`)
