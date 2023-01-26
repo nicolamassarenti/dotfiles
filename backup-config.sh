@@ -20,6 +20,7 @@ cp ~/.config/fish/functions/ll.fish ./fish/functions/
 cp ~/.config/fish/functions/obsidian.fish ./fish/functions/
 cp ~/.config/fish/functions/spegni.fish ./fish/functions/
 cp ~/.config/fish/functions/update.fish ./fish/functions/
+cp ~/.config/fish/config.fish ./fish/config.fish
 
 # Copying git config
 cp ~/.gitconfig ./git/
