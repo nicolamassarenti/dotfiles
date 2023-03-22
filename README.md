@@ -49,6 +49,7 @@ dconf load / < ubuntu.dconf
 - [curl](https://curl.se/): Command line tool for transferring data with URL syntax - `sudo apt install curl`
 - tmux: Terminal multiplexer - `sudo apt install tmux`
 - libfuse2: Filesystem in Userspace (library), required by Obsidian - `sudo apt install libfuse2`
+- [bat](https://github.com/sharkdp/bat): a `cat` clone with wings - `sudo apt install bat`
 
 ## Operations
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/): The Kubernetes command-line tool
