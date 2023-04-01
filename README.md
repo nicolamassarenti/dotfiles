@@ -50,6 +50,7 @@ dconf load / < ubuntu.dconf
 - tmux: Terminal multiplexer - `sudo apt install tmux`
 - libfuse2: Filesystem in Userspace (library), required by Obsidian - `sudo apt install libfuse2`
 - [bat](https://github.com/sharkdp/bat): a `cat` clone with wings - `sudo apt install bat`
+- [jq](https://stedolan.github.io/jq/): a command-line JSON processor - `sudo apt install jq`
 
 ## Operations
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/): The Kubernetes command-line tool
